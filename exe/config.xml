@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <BIG_SERIALIZER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <matrix_widht>100</matrix_widht>
-  <matrix_height>100</matrix_height>
-  <matrix_depth>10</matrix_depth>
+  <matrix_widht>5</matrix_widht>
+  <matrix_height>5</matrix_height>
+  <matrix_depth>5</matrix_depth>
   <seed_adder_1>1</seed_adder_1>
   <seed_adder_2>15</seed_adder_2>
   <homogeneous_row>5</homogeneous_row>
   <homogeneous_col>5</homogeneous_col>
   <kT>0.3</kT>
-  <MC_ids>10</MC_ids>
+  <MC_ids>5</MC_ids>
   <slice_visualized>0</slice_visualized>
   <radio_button_neighbourhood>radioButton_penta</radio_button_neighbourhood>
   <radio_button_boundary_conditions>radioButton_hard_stop</radio_button_boundary_conditions>
   <radio_button_iter_method>radioButton_type_of_iter_MC</radio_button_iter_method>
-  <radio_button_save_to>radioButton_save_to_png</radio_button_save_to>
+  <radio_button_save_to>radioButton_save_to_ovito</radio_button_save_to>
   <checkbox_grains>true</checkbox_grains>
   <checkbox_coverage>true</checkbox_coverage>
   <checkbox_system_energy>true</checkbox_system_energy>
