@@ -636,7 +636,7 @@ namespace Modelowanie_Wieloskalowe___aplikacja
                     text += Environment.NewLine + x.ToString() + " " + y.ToString() + " " + (real_tab[x, y].get_id()).ToString();
                 }
             
-            File.WriteAllText(dir_generated_output + DateTime.Now.ToString("h-mm-ss--d-M-yyyy") + "__2D.ovito", text);
+            File.WriteAllText(dir_generated_output + "Ovito_file_2D__" + DateTime.Now.ToString("h-mm-ss--d-M-yyyy"), text);
         }
         void save_ovito_3D()
         {
@@ -649,7 +649,7 @@ namespace Modelowanie_Wieloskalowe___aplikacja
                     text += Environment.NewLine + x.ToString() + " " + y.ToString() + " " + z.ToString() + " " + (real_tab_3D[x, y, z].get_id()).ToString();
                 }
 
-            File.WriteAllText(dir_generated_output + DateTime.Now.ToString("h-mm-ss--d-M-yyyy") + "__3D.ovito", text);
+            File.WriteAllText(dir_generated_output + "Ovito_file_3D__" + DateTime.Now.ToString("h-mm-ss--d-M-yyyy"), text);
         }
         Color get_new_color()
         {
