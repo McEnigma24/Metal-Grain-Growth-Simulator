@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <BIG_SERIALIZER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <matrix_widht>5</matrix_widht>
-  <matrix_height>5</matrix_height>
-  <matrix_depth>5</matrix_depth>
+  <matrix_widht>250</matrix_widht>
+  <matrix_height>250</matrix_height>
+  <matrix_depth>1</matrix_depth>
   <seed_adder_1>1</seed_adder_1>
   <seed_adder_2>15</seed_adder_2>
   <homogeneous_row>5</homogeneous_row>
   <homogeneous_col>5</homogeneous_col>
   <kT>0.3</kT>
-  <MC_ids>5</MC_ids>
+  <MC_ids>10</MC_ids>
   <slice_visualized>0</slice_visualized>
   <radio_button_neighbourhood>radioButton_penta</radio_button_neighbourhood>
   <radio_button_boundary_conditions>radioButton_hard_stop</radio_button_boundary_conditions>
